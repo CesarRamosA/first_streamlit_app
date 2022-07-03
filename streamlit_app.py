@@ -3,7 +3,7 @@ import pandas
 import requests
 import snowflake.connector
 from urllib.error import URLError
-sudo apt-get install python-cffi
+sudo pip install cffi==1.5.2
 
 streamlit.title('My Mom\'s New Healthy Diner')
 
